@@ -23,7 +23,7 @@ client.on("ready", () => {
 client.on("message", async (msg) => {
   console.log("message recieved");
 
-  if (msg.body === "@.tagg") {
+  if (msg.body === ".tag") {
     const chat = await msg.getChat();
 
     let text = "";
